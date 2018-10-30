@@ -1,11 +1,7 @@
-FROM frolvlad/alpine-python-machinelearning
+FROM python:3.6
 
 
-RUN apk update && apk upgrade && \ 
-	apk add --no-cache python3-dev && \
-	apk add --no-cache py-pip && \
-	apk add --no-cache --virtual .build-deps g++ && \
-	apk add --update --no-cache git
+RUN pip install --upgrade pip
 	
 	
 WORKDIR /usr/src/app
