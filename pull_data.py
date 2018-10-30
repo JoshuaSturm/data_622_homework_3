@@ -26,8 +26,8 @@ login = {
 
 payload = {
     'action':'login',
-    'username': iamfleurdelys@gmail.com,
-    'password': tempproject
+    'username': 'iamfleurdelys@gmail.com',
+    'password': 'tempproject'
 }
 
 loginUrl = "https://www.kaggle.com/account/login"
