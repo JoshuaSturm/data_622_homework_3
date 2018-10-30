@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM frolvlad/alpine-python-machinelearning
 
 
 RUN apk update && apk upgrade && \ 
