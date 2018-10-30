@@ -10,7 +10,6 @@ This script will retrieve the training and testing data sets from the following 
 
 # Import libraries
 import requests
-import credentials
 
 # Remote files
 # user = credentials.login['email']
@@ -27,8 +26,8 @@ login = {
 
 payload = {
     'action':'login',
-    'username': credentials.login['email'],
-    'password': credentials.login['password']
+    'username': iamfleurdelys@gmail.com,
+    'password': tempproject
 }
 
 loginUrl = "https://www.kaggle.com/account/login"
