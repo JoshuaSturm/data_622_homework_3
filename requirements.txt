@@ -1,7 +1,6 @@
 requests
 pandas
 numpy
-pickle
 sklearn.metrics
 sklearn.impute
 sklearn.pipeline
