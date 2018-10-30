@@ -1,8 +1,4 @@
 requests
 pandas
 numpy
-sklearn.metrics
-sklearn.impute
-sklearn.pipeline
-sklearn.ensemble
-sklearn.model_selection
+sklearn
